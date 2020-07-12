@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Formulario de contacto </title>
+		<link rel="stylesheet" type="text/css" href="estilo.css">
+
+	</head>
+	<body></body>
+
+		<div class="form">
+				<form method="POST" action="./guardar.php">
+					
+					<p> Nombre</p>
+					<label for="nombre">Su nombre </label>
+					<br>
+					<input type="text" nombre="nombre" placeholder="Escriba su nombre" required>
+					<p>Correo</p>
+					<label for="correo"> Direccion de Correo </label>
+					<br>
+					<input type="email" nombre="correo" placeholder="alguien@algo.com" required>
+					<p>Mensaje</p>
+					<label for="mensaje">Su Mensaje</label>
+					<br>
+					<textarea nombre="mensaje" placeholder="Escriba su mensaje" required></textarea>
+					<br>
+					<br>
+					<input type="submit" value="Enviar">
+				</form>
+		</div>
+		
+	</body>
+</html>
